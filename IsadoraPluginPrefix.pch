@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'IsadoraDemoPlugin' target in the 'IsadoraDemoPlugin' project.
+//
+
+#include <Carbon/Carbon.h>
+#import "SharedFileLogger.h"
+
+#define DEBUG_MESSAGE(msg, ...)
+//#define DEBUG_MESSAGE(msg...) { [[SharedFileLogger new] addMessage: msg]; }
